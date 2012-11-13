@@ -50,7 +50,7 @@ class Copy:
 
     def is_destination_exists(self,old,new):
 	if not os.path.exists(new):
-	    print 'The destination not exists, I will Create the shit!'
+	    print 'The destination not exists, we will Create the shit!'
 	    mkd = mkdir.Mkdir(new)
 	    mkd.make_dir()
 	self.real_copy(old,new)
