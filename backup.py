@@ -72,7 +72,7 @@ class Backup:
 if __name__ == "__main__":
     command = raw_input('IF you want to backup one file input f.\n'
 	    'IF you have a directory to backup input d.\n'
-	    'Nothing to do input OTHER key.\n'
+	    'Nothing to do input OTHER keys.\n'
 	    '$--backup-->')
     back = Backup()
     if command == 'f':
