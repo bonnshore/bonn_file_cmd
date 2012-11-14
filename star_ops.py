@@ -4,7 +4,6 @@
 import re
 import os
 import glob
-import copy
 
 def is_star_cmd(args):
     argv = os.path.split(args)[1]

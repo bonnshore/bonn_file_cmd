@@ -3,7 +3,7 @@
 
 def print_help():
     print 'At least you know how to ask for help~\n'\
-			"cmd 'ls' to list directory.\n"\
+			"cmd 'ls' to list files.\n"\
 			"cmd 'mkdir' to create new directory.\n"\
 			"cmd 'rm' to remove directory or file.\n"\
 			"cmd 'cp' to copy directory or file.\n"\
